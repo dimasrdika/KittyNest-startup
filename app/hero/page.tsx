@@ -25,7 +25,7 @@ const Hero = () => {
             Learn More
           </button>
         </div>
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10 mb-10">
           <video className="rounded-xl" autoPlay muted loop>
             <source src="/content/hero-1.mp4" type="video/mp4" />
           </video>
