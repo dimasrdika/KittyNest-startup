@@ -1,15 +1,15 @@
 import Navbar from "./navbar/page";
 import Hero from "./hero/page";
 import Carousel from "@/components/ui/carousel";
-import Features from "./hero-2/page";
+import SecondSection from "./section-2/page";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="overflow-x-hidden">
         <Navbar />
         <Hero />
         <Carousel />
-        <Features />
+        <SecondSection />
       </div>
     </>
   );
