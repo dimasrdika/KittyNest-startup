@@ -84,7 +84,7 @@ export function NavigationBar() {
                 cat delight.
               </ListItem>
               <ListItem href="/docs/installation" title="Installation">
-                How to install the Kitty Nest UI library for your cat's favorite
+                How to install the Kitty Nest UI library for your cats favorite
                 apps.
               </ListItem>
               <ListItem href="/docs/kitty-nest/typography" title="Typography">
