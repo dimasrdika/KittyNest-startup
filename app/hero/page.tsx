@@ -30,12 +30,6 @@ const Hero = () => {
           <video className="rounded-xl" autoPlay muted loop>
             <source src="/content/hero-1.mp4" type="video/mp4" />
           </video>
-          {/* <img
-            className="rounded-xl"
-            width={700}
-            height={100}
-            src="/hero.jpg"
-          /> */}
         </div>
       </div>
     </section>
