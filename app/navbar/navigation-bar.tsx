@@ -88,7 +88,7 @@ export function NavigationBar() {
                 apps.
               </ListItem>
               <ListItem href="/docs/kitty-nest/typography" title="Typography">
-                Styles for kitty headings, meow-agraphs, and lists...etc
+                Styles for kitty headings, meow-agraphs, and listetc
               </ListItem>
             </ul>
           </NavigationMenuContent>
