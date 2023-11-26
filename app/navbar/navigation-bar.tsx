@@ -13,6 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import Image from "next/image";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -67,7 +68,7 @@ export function NavigationBar() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <img src="/paws.png" className="w-8 h-8" />
+                    <Image src="/paws.png" className="w-8 h-8" alt="paws" />
                     <div className="mb-2 mt-4 text-lg font-medium">
                       KittyNest
                     </div>
