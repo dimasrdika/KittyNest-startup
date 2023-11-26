@@ -67,7 +67,7 @@ const Carousel = () => {
 
   return (
     <div className="mt-10 mb-10">
-      <div className="text-center font-bold text-4xl text-gradient bg-gradient-to-r from-green-500 to-indigo-500 bg-clip-text text-transparent">
+      <div className="text-center font-bold text-4xl text-gradient bg-gradient-to-r from-indigo-400 to-blue-800 bg-clip-text text-transparent">
         Trusted by 100+ brands, Kitty Nest is the epitome of simple
         sophistication for cats
       </div>
