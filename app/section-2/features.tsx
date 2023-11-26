@@ -42,7 +42,7 @@ const Features = [
 const FeaturesCard = () => {
   return (
     <div className="flex-col items-center justify-center">
-      <div className="text-3xl text-center md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r from-purple-400 to-blue-800 bg-clip-text text-transparent">
+      <div className="text-3xl text-center md:text-4xl font-bold pt-5 pb-10 bg-gradient-to-r from-purple-400 to-blue-800 bg-clip-text text-transparent">
         Product Features
       </div>
       <div className="grid grid-cols-1 p-4 md:grid-cols-3 gap-4 cursor-pointer md:px-10">
@@ -51,9 +51,6 @@ const FeaturesCard = () => {
             key={index}
             className="flex flex-col items-center justify-center space-y-6 pb-10 border p-8 rounded-xl w-full hover:scale-105 transition-all duration-500 ease-in-out"
           >
-            <div className="text-slate-700 text-3xl font-bold">
-              {feature.name}
-            </div>
             <div className="relative h-40 w-40 mb-4">
               <Image
                 src={feature.image}
@@ -62,8 +59,13 @@ const FeaturesCard = () => {
                 alt={feature.name}
               />
             </div>
-            <div className="text-slate-600 text-lg text-center">
-              {feature.description}
+            <div className="items-start mt-2">
+              <div className="text-slate-600 text-3xl mb-2 font-bold">
+                {feature.name}
+              </div>
+              <div className="text-slate-600 text-lg">
+                {feature.description}
+              </div>
             </div>
           </div>
         ))}
